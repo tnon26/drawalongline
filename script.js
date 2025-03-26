@@ -44,9 +44,9 @@ canvas.addEventListener("mouseup", () => {
         message.textContent = "Really? This is all you can do? 🙄";
     } else if (totalLength <= 30) {
         message.textContent = "This is almost a foot long! 🫣";
-    } else if (totalLength > 30 && totalLength < 99.99) { 
+    } else if (totalLength > 30 && totalLength < 100) { 
         message.textContent = "Draw any longer to get a 1 METRE LONG!! 😲";
-    } else if (totalLength > 100 && totalLength < 500) {
+    } else if (totalLength >= 100 && totalLength < 500) {
         message.textContent = "CONGRAT! YOU DRAW A 1 METRE LONG LINE!! 🥳";
     } else if (totalLength >= 500 && totalLength < 2500) {
         message.textContent = "THIS IS FUN, RIGHT? 🙂‍↕️";
