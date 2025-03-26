@@ -52,7 +52,7 @@ canvas.addEventListener("mouseup", () => {
         message.textContent = "THIS IS FUN, RIGHT? 🙂‍↕️";
     } else if (totalLength >= 2500 && totalLength < 10000) {
         message.textContent = "Wait.... 😒";
-    } else if (totalLength >= 10000) {
+    } else if (totalLength >= 10000 && totalLength < 11000) {
         message.textContent = "Are you for real? 🤨";
     } else {
         message.textContent = "I'm not gonna count it anymore 😌";
